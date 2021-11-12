@@ -12,6 +12,7 @@ body {
 p {
     font-size: 20px;
     color: #FFF;
+    text-align: justify;
 }
 
 p.small {
@@ -158,11 +159,11 @@ header .intro-text .skills {
         -moz-transition: all .3s;
         transition: all .3s;
     }
-
+/*
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
-
+*/
     .navbar-fixed-top.navbar-shrink .navbar-brand
     .navbar .navbar-nav .navbar-default {
         font-size: 15px !important;
