@@ -164,7 +164,8 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 15px;
+        letter-spacing: 2px;
     }
 }
 
@@ -180,7 +181,8 @@ header .intro-text .skills {
 
 .navbar .navbar-nav 
 .navbar-default .navbar-brand{
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 15px;
 }
 
 .navbar .navbar-nav li a:focus, a:active{
@@ -533,4 +535,8 @@ footer .footer-below {
 
 .control-group{
     color: #FFF;
+}
+
+.navbar-brand{
+    font-size: 15px !important;
 }
