@@ -48,6 +48,10 @@ h6 {
     font-weight: 700;
 }
 
+h3 {
+    text-transform: none !important;
+}
+
 h2{
     color: #fff !important;
 }
