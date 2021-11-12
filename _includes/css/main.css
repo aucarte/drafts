@@ -343,6 +343,7 @@ section.success {
     background: 0 0;
     box-shadow: none!important;
     resize: none;
+    color:#FFF;
 }
 
 .floating-label-form-group label {
