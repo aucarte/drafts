@@ -369,7 +369,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #FFF;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -529,4 +529,8 @@ footer .footer-below {
 .btn-default:hover {
     background-color: #ff3333;
     border-color: #ff3333;
+}
+
+.control-group{
+    color: #FFF;
 }
