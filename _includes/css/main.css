@@ -439,6 +439,7 @@ footer .footer-below {
 
 .scroll-top .btn:focus {
     outline: 0;
+    background-color: #58288c; 
 }
 
 .portfolio-modal .modal-content {
