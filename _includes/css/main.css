@@ -545,6 +545,6 @@ footer .footer-below {
     font-size: 15px !important;
 }
 
-.navbar-right:active{
+.navbar-nav:active{
     background-color: #ffb307;
 }
