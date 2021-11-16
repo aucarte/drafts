@@ -545,6 +545,6 @@ footer .footer-below {
     font-size: 15px !important;
 }
 
-.navbar:hover{
+.navbar-right:hover{
     background-color: #ffb307;
 }
