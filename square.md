@@ -1,0 +1,4 @@
+---
+layout: square
+permalink: /square/
+---
