@@ -19,7 +19,7 @@
                         <a href="#page-top"></a>
                     </li>
 
-
+                    {% if page.name == {{site.github.url}}/index %}
                     <li class="page-scroll">
                         <a href="{{site.github.url}}/portfolio">Portfolio</a>
                     </li>
@@ -31,6 +31,21 @@
                     <li class="page-scroll">
                         <a href="{{site.github.url}}/contact">Contact</a>
                     </li>
+                    {% endif %}
+
+
+                    {% if page.name == {{site.github.url}}/about %}
+                    <li class="page-scroll">
+                        <a href="{{site.github.url}}/portfolio">Portfolio</a>
+                    </li>
+                                        
+                    <li class="page-scroll">
+                        <a href="{{site.github.url}}/contact">Contact</a>
+                    </li>
+                    {% endif %}
+
+
+
 
 
 <!--                     <li class="page-scroll">
