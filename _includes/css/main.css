@@ -437,9 +437,9 @@ footer .footer-below {
     line-height: 28px;
 }
 
-.scroll-top .btn:focus {
+.scroll-top .btn:focus, .btn:hover {
     outline: 0;
-    background-color: #58288c; 
+    background-color: #ffb307; 
 }
 
 .portfolio-modal .modal-content {
