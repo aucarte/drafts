@@ -546,10 +546,10 @@ footer .footer-below {
     font-size: 15px !important;
 }
 
-span.skills {
+.skills {
     text-align: justify; 
 }
 
-p.descricao {
+.descricao {
     text-align: center;
 }
