@@ -9,14 +9,24 @@
             </div>
         </div>
 
-{% if page.url == "/square/" %}
-
+{% if page.url == "/portfolio/" %}
     <div>
         <p>
-            oi!
+            E PORTFOLIO
         </p>
     </div>
-
+{% elsif page.url != "/portfolio/" %}
+    <div>
+        <p>
+            NAO E PORTFOLIO
+        </p>
+    </div>
+{% else %}
+    <div>
+        <p>
+            E NADA
+        </p>
+    </div>
 {% endif %}
 
     </div>
