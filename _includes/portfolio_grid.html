@@ -41,20 +41,28 @@
         </div>
 <!-- SE FOR GALERIA SQUARE -->
 {% elsif page.url == "/square/" %}
-        <div class="portfolio-flex-item portfolio-item">
-            <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
-                <div class="caption">
-                    <div class="caption-content">
-                        <i class="fa fa-search-plus fa-3x"></i>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Galeria Square Animals</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="portfolio-flex-row">
+            <div class="portfolio-flex-item portfolio-item">
+                <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
                     </div>
-                </div>
-                <img src="{{site.github.url}}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-            </a>
+                    <img src="{{site.github.url}}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                </a>
+            </div>
         </div>
 {% else %}
     <div>
         <p>
-            E NADA
+            Ops! algo deu errado.
         </p>
     </div>
 {% endif %}
