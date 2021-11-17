@@ -13,17 +13,28 @@
                 </div>
             </div>
 
-<!-- SITE -->
-{{ site }}
+{% if permalink == /portfolio/ %}
+    igualzim
+{% endif %}
 
-<!-- PAGE -->
-{{ page }}
+<!-- SITE URL -->
+{{ site.url }}
 
-<!-- LAYOUT -->
-{{ layout }}
+<!-- PAGE TITLE-->
+{{ page.title }}
 
-<!-- CONTENT -->
-{{ content }}
+<!-- PAGE URL -->
+{{ page.url }}
+
+<!-- PAGE ID -->
+{{ page.id }}
+
+<!-- PAGE DIR -->
+{{ page.dir }}
+
+<!-- PAGE NAME -->
+{{ page.name }}
+
 <!-- SQUARE-ANIMALS -->
             <div class="portfolio-flex-row">
                 <div class="portfolio-flex-item portfolio-item">
