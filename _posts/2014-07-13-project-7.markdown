@@ -1,11 +1,9 @@
 ---
+title: Square-Lion
 layout: default
 modal-id: 7
 date: 2021-11-17
-img: game.png
+img: SquareLion.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: just a test setup
+description: The roar of a lion can be heard 9 kilometers away.
 ---
