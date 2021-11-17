@@ -3,7 +3,7 @@
     <div class="container portfolio-flex-grid">
 
 <!-- SE FOR O PORTFOLIO NORMAL -->
-{% if page.url == "/portfolio/" %}
+
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Gallery</h2>
@@ -20,7 +20,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="{{site.github.url}}/img/portfolio/cake.png" class="img-responsive" alt="{{ post.alt }}">
+                    <img src="{{site.github.url}}/img/portfolio/submarine.png" class="img-responsive" alt="{{ post.alt }}">
                 </a>
             </div>
 
@@ -38,37 +38,6 @@
             {% endfor %}
 
         </div>
-<!-- SE FOR GALERIA SQUARE -->
-{% elsif page.url == "/square/" %}
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Square Animals Gallery</h2>
-                <hr class="star-primary">
-            </div>
-        </div>
-        <div class="portfolio-flex-row">
-            
-            <div class="portfolio-flex-item portfolio-item">
-                <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{site.github.url}}/img/portfolio/cake.png" class="img-responsive" alt="{{ post.alt }}">
-                </a>
-            </div>
-
-        </div>
-
-<!-- SE DER MERDA -->
-{% else %}
-    <div>
-        <p>
-            Ops! algo deu errado.
-        </p>
-    </div>
-{% endif %}
 
     </div>
 </section>
