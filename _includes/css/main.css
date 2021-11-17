@@ -104,7 +104,12 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    {% if page.url == "/square/" %}
+        background-image: url("{{site.github.url}}/img/_arara.jpg");
+    {% else %}
+        background-color: #{{ site.color.primary }};
+    {% endif %}
+
 }
 
 header .container {
