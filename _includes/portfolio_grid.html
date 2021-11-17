@@ -1,7 +1,8 @@
 
 
 
-
+{% case permalink %}
+    {% when /square/ %}
 <!-- SE FOR A GALERIA SQUARE ANIMALS ##############################################################################################-->
         <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -12,28 +13,6 @@
                     <hr class="star-primary">
                 </div>
             </div>
-
-{% if permalink == /portfolio/ %}
-    igualzim
-{% endif %}
-
-<!-- SITE URL -->
-{{ site.url }}
-
-<!-- PAGE TITLE-->
-{{ page.title }}
-
-<!-- PAGE URL -->
-{{ page.url }}
-
-<!-- PAGE ID -->
-{{ page.id }}
-
-<!-- PAGE DIR -->
-{{ page.dir }}
-
-<!-- PAGE NAME -->
-{{ page.name }}
 
 <!-- SQUARE-ANIMALS -->
             <div class="portfolio-flex-row">
@@ -56,6 +35,7 @@
         </div>
     </section>
 
+    {% else /portfolio/ %}
 <!-- SE FOR O PORTFOLIO NORMAL ###################################################################################################### -->
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -99,3 +79,4 @@
             </div>
         </div>
     </section>
+{% endcase %}
