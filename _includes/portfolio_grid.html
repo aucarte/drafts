@@ -1,5 +1,6 @@
 
-{% if page == {{site.github.url}}/square/ %}
+<!-- SE FOR A GALERIA SQUARE ANIMALS ##############################################################################################-->
+{% if site.url == {{site.github.url}}/square/ %}
         <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container portfolio-flex-grid">
@@ -33,6 +34,9 @@
 {% endif %}
 
 
+
+<!-- SE FOR O PORTFOLIO NORMAL ###################################################################################################### -->
+{% if site.url == {{site.github.url}}/portfolio/ %}
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container portfolio-flex-grid">
@@ -75,3 +79,4 @@
             </div>
         </div>
     </section>
+{% endif %}
