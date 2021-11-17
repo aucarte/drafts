@@ -13,6 +13,7 @@ p {
     font-size: 20px;
     color: #FFF;
     text-align: justify;
+    margin: 0 30px 10.5px !important;
 }
 
 p.small {
