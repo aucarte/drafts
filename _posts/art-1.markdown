@@ -1,5 +1,5 @@
 ---
-title: SquareButerffly
+title: Square-Buterffly
 layout: default
 modal-id: 1
 date: 2021-11-17

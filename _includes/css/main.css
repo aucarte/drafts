@@ -549,3 +549,7 @@ footer .footer-below {
 span.skills {
     text-align: justify; 
 }
+
+p.descricao {
+    text-align: center;
+}
