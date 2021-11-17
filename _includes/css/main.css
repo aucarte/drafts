@@ -29,6 +29,9 @@ a.active {
     color: #ffb307;
 }
 
+a.active {
+    color: none !important;
+}
 
 a:hover {
     color: #ffb307 !important;
