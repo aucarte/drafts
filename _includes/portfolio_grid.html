@@ -1,5 +1,4 @@
-{% case permalink %}
-    {% when /square/ %}
+{% if permalink == /square/ %}
 <!-- SE FOR A GALERIA SQUARE ANIMALS ##############################################################################################-->
         <!-- Portfolio Grid Section -->
         <section id="portfolio">
@@ -31,7 +30,7 @@
                 </div>
             </div>
         </section>
-    {% when /portfolio/ %}
+{% elseif permalink == /portfolio/ %}
 <!-- SE FOR O PORTFOLIO NORMAL ###################################################################################################### -->
     <!-- Portfolio Grid Section -->
         <section id="portfolio">
@@ -75,4 +74,4 @@
                 </div>
             </div>
         </section>
-{% endcase %}
+{% endif %}
