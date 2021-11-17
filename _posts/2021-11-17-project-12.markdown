@@ -1,0 +1,9 @@
+---
+title: Square-Bull
+layout: default
+modal-id: 12
+date: 2021-11-17
+img: SquareBull.png
+alt: image-alt
+description: In relation to Celtic symbolism, the bull represents physical strength and power.
+---
