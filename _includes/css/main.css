@@ -104,12 +104,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    {% if page.url == "/square/" %}
-        background-color: #FFF;
-    {% else %}
-        background-color: #{{ site.color.primary }};
-    {% endif %}
-
+    background: #{{ site.color.primary }};
 }
 
 header .container {
