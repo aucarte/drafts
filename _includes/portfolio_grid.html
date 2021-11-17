@@ -1,6 +1,17 @@
 
+
+{% assign a = "cake" %}
+{% case a %}
+    {% when "cake" %}
+        E biscoito
+    {% when "cookie", "biscuit" %}
+        Nao e biscoito
+    {% else %}
+        nada
+{% endcase %}
+
 <!-- SE FOR A GALERIA SQUARE ANIMALS ##############################################################################################-->
-{% if page.url == {{site.github.url}}/square/ %}
+{% if site.url == {{site.github.url}}/square %}
         <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container portfolio-flex-grid">
@@ -36,7 +47,7 @@
 
 
 <!-- SE FOR O PORTFOLIO NORMAL ###################################################################################################### -->
-{% if page.url == {{site.github.url}}/portfolio/ %}
+{% if site.url == {{site.github.url}}/portfolio %}
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container portfolio-flex-grid">
