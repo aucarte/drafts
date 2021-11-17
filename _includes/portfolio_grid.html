@@ -1,82 +1,78 @@
-
-
-
 {% case permalink %}
     {% when /square/ %}
 <!-- SE FOR A GALERIA SQUARE ANIMALS ##############################################################################################-->
         <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container portfolio-flex-grid">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Deu super certo!</h2>
-                    <hr class="star-primary">
+        <section id="portfolio">
+            <div class="container portfolio-flex-grid">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Deu super certo!</h2>
+                        <hr class="star-primary">
+                    </div>
                 </div>
-            </div>
 
-<!-- SQUARE-ANIMALS -->
-            <div class="portfolio-flex-row">
-                <div class="portfolio-flex-item portfolio-item">
-                    <a href="{{site.github.url}}/square" class="portfolio-link">
-
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        
-                        <img src="{{site.github.url}}/img/portfolio/cake.png" class="img-responsive" alt="{{ post.alt }}">
-
-                    </a>
-                </div>
-<!-- SQUARE-ANIMALS END DIV -->
-
-            </div>
-        </div>
-    </section>
-
-    {% when /portfolio/ %}
-<!-- SE FOR O PORTFOLIO NORMAL ###################################################################################################### -->
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container portfolio-flex-grid">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-
-<!-- SQUARE-ANIMALS -->
-            <div class="portfolio-flex-row">
-                <div class="portfolio-flex-item portfolio-item">
-                    <a href="{{site.github.url}}/square" class="portfolio-link">
-
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        
-                        <img src="{{site.github.url}}/img/portfolio/cake.png" class="img-responsive" alt="{{ post.alt }}">
-
-                    </a>
-                </div>
-<!-- SQUARE-ANIMALS END DIV -->
-
-                {% for post in site.posts %}
+    <!-- SQUARE-ANIMALS -->
+                <div class="portfolio-flex-row">
                     <div class="portfolio-flex-item portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <a href="{{site.github.url}}/square" class="portfolio-link">
+
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="{{site.github.url}}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            
+                            <img src="{{site.github.url}}/img/portfolio/cake.png" class="img-responsive" alt="{{ post.alt }}">
+
                         </a>
                     </div>
-                {% endfor %}
+    <!-- SQUARE-ANIMALS END DIV -->
+
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    {% when /portfolio/ %}
+<!-- SE FOR O PORTFOLIO NORMAL ###################################################################################################### -->
+    <!-- Portfolio Grid Section -->
+        <section id="portfolio">
+            <div class="container portfolio-flex-grid">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Portfolio</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+
+    <!-- SQUARE-ANIMALS -->
+                <div class="portfolio-flex-row">
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="{{site.github.url}}/square" class="portfolio-link">
+
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            
+                            <img src="{{site.github.url}}/img/portfolio/cake.png" class="img-responsive" alt="{{ post.alt }}">
+
+                        </a>
+                    </div>
+    <!-- SQUARE-ANIMALS END DIV -->
+
+                    {% for post in site.posts %}
+                        <div class="portfolio-flex-item portfolio-item">
+                            <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="{{site.github.url}}/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
 {% endcase %}
