@@ -1,0 +1,9 @@
+---
+title: Square-Naja
+layout: default
+modal-id: 3
+date: 2021-11-17
+img: SquareNaja.png
+alt: image-alt
+description: Most snakes of the naja genus rear up to a third of their full size.
+---
