@@ -3,7 +3,7 @@ title: SquareButerffly
 layout: default
 modal-id: 1
 date: 2021-11-17
-img: SquareButerflly.png
+img: SquareButerffly.png
 alt: image-alt
 description: The butterfly uses its feet to taste.
 ---
