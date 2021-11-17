@@ -105,7 +105,7 @@ header {
     text-align: center;
     color: #fff;
     {% if page.url == "/square/" %}
-        background-image: url("{{site.github.url}}/img/_arara.jpg");
+        background-color: #FFF;
     {% else %}
         background-color: #{{ site.color.primary }};
     {% endif %}
