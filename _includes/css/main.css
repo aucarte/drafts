@@ -556,3 +556,11 @@ footer .footer-below {
 .descricao {
     text-align: center;
 }
+
+.row {
+    padding: 0 30px;
+}
+
+.fa-eye{
+    font-size: 3em;
+}
