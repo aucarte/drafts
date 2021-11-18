@@ -12,7 +12,7 @@ body {
 p {
     font-size: 20px;
     color: #FFF;
-    text-align: justify;
+    text-align: center;
     margin: 0 30px 10.5px !important;
 }
 
@@ -550,7 +550,7 @@ footer .footer-below {
 }
 
 .skills {
-    text-align: justify; 
+    text-align: center; 
 }
 
 .descricao {
