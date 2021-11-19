@@ -11,8 +11,12 @@
           <hr class="star-light" />
           <span class="skills">Square Animals are a collection of animals drawn using only rectangles and plain colors. The aim is to show animals from a different perspective and how versatile they are, as they have characteristics that every human being can recognize, so when you see a cat, for example, you know it's a cat because of its peculiar characteristics , similarly occurs when you see a dog, or a snake, or an elephant, as they all have specific and general characteristics that make them easy to recognize. This collection seeks to show exactly how these peculiarities of each animal can be represented in a simple, elegant and beautiful way.</span>
         </div>
+        {% elsif page.url == "/about/" %}
+        <img class="img-responsive" src="{{site.url}}/img/profile.png" alt="profile-pic" />
+        <div class="intro-text">
+        </div>
         {% else %}
-        <img class="img-responsive" src="img/profile.png" alt="profile-pic" />
+        <img class="img-responsive" src="{{site.url}}/img/profile.png" alt="profile-pic" />
         <div class="intro-text">
           <span class="name">Augusto César</span>
           <hr class="star-light" />
