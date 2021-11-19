@@ -578,7 +578,7 @@ footer .footer-below {
 }
 
 #iframe7 {
-    width: 420;
-    height: 345;
-    border-color: red;
+    width: 420px;
+    height: 345px;
+    margin-top: 50px;
 }
