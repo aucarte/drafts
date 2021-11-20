@@ -147,10 +147,6 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
-
-    #iframe7{
-        margin-left: 20%;
-    }
 }
 
 @media(min-width:768px) {
@@ -300,9 +296,6 @@ section.success {
       max-width: 49%;
     }
 
-    #iframe7{
-        margin-left: 13%;
-    }
   }
   @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
@@ -536,10 +529,6 @@ footer .footer-below {
 
     .col-md-4 {
         width:100%;
-    }
-
-    #iframe7{
-        margin-left: 30%;
     }
 }
 
