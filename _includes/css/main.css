@@ -317,10 +317,6 @@ section.success {
       max-width: 32%;
     }
 
-    #iframe7 {
-    height: 600px;
-    }
-
   }
   /* A large grid might need four columns on widescreen layouts */
   /* @media (min-width: 1380px) {
