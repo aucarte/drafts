@@ -227,7 +227,7 @@ section.success {
     }
 
     #iframe7 {
-    height: 400px;
+    height: 80%;
 }
 
 }
@@ -312,7 +312,7 @@ section.success {
     }
 
 
-    
+
   }
   /* A large grid might need four columns on widescreen layouts */
   /* @media (min-width: 1380px) {
@@ -579,4 +579,5 @@ footer .footer-below {
 #iframe7 {
     width: 100%;
     margin-top: 50px;
+    height: 600px;
 }
