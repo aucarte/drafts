@@ -150,6 +150,7 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
+
     .navbar-fixed-top {
         padding: 3px 0;
         -webkit-transition: padding .3s;
@@ -285,6 +286,7 @@ section.success {
 
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
+
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
       flex-flow: row wrap;
@@ -568,6 +570,6 @@ footer .footer-below {
 
 #iframe7 {
     width: 100%;
-    height: 100%;
+    height: 500px;
     margin-top: 50px;
 }
