@@ -216,7 +216,7 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
-/** A PARTIR DE 767PX SERÁ APLICADA ESSA FORMATAÇÃO **/
+/** ATÉ 767PX SERÁ APLICADA ESSA FORMATAÇÃO? **/
 @media(max-width:767px) {
     section {
         padding: 90px 0;
@@ -227,7 +227,7 @@ section.success {
     }
 
     #iframe7 {
-    height: 600px;
+    height: 400px;
 }
 
 }
@@ -310,6 +310,9 @@ section.success {
       flex: 1 0 32%;
       max-width: 32%;
     }
+
+
+    
   }
   /* A large grid might need four columns on widescreen layouts */
   /* @media (min-width: 1380px) {
