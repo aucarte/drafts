@@ -216,6 +216,7 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+/** A PARTIR DE 767PX SERÁ APLICADA ESSA FORMATAÇÃO **/
 @media(max-width:767px) {
     section {
         padding: 90px 0;
@@ -575,4 +576,5 @@ footer .footer-below {
 #iframe7 {
     width: 100%;
     margin-top: 50px;
+    height: 400px;
 }
