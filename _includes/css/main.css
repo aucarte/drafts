@@ -224,6 +224,11 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+
+    #iframe7 {
+    height: 600px;
+}
+
 }
 
 #portfolio .portfolio-item {
@@ -531,10 +536,6 @@ footer .footer-below {
     .col-md-4 {
         width:100%;
     }
-
-    #iframe7 {
-    height: 600px;
-}
 }
 
 .btn-default {
