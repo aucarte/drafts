@@ -226,10 +226,6 @@ section.success {
         padding-top: 75px;
     }
 
-    #iframe7 {
-    height: 80%;
-}
-
 }
 
 #portfolio .portfolio-item {
@@ -577,7 +573,7 @@ footer .footer-below {
 }
 
 #iframe7 {
-    width: 100%;
+    width: 640px;
     margin-top: 50px;
-    height: 600px;
+    height: 360px;
 }
