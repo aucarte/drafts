@@ -294,6 +294,10 @@ section.success {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+
+    #iframe7 {
+    height: 400px;
+    }
 }
 
 /* Flexbox Portfolio Grid */
@@ -315,6 +319,10 @@ section.success {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 32%;
       max-width: 32%;
+    }
+
+    #iframe7 {
+    height: 600px;
     }
 
   }
