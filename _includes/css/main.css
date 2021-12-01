@@ -226,16 +226,16 @@ section.success {
         padding-top: 75px;
     }
 
-    #iframe7 {
+/*    #iframe7 {
     height: 400px;
-    }
+    }*/
 
 }
 
 @media(max-width: 400px){
-    #iframe7 {
+/*    #iframe7 {
     height: 300px;
-    }    
+    }  */  
 }
 
 #portfolio .portfolio-item {
@@ -295,9 +295,9 @@ section.success {
         margin: 0 0 30px;
     }
 
-    #iframe7 {
+/*    #iframe7 {
     height: 400px;
-    }
+    }*/
 }
 
 /* Flexbox Portfolio Grid */
@@ -321,9 +321,9 @@ section.success {
       max-width: 32%;
     }
 
-    #iframe7 {
+/*    #iframe7 {
     height: 600px;
-    }
+    }*/
 
   }
   /* A large grid might need four columns on widescreen layouts */
@@ -588,6 +588,22 @@ footer .footer-below {
     font-size: 3em;
 }
 
-#iframe7 {
+/*#iframe7 {
     margin-top: 50px;
+}
+*/
+
+div.iframe7{
+    padding: 5px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.iframe7 > iframe {
+    position: absolute;
+    top: 5%;
+    left:5%;
+    width: 95%; 
+    height: 95%;
+    
 }
