@@ -226,14 +226,14 @@ section.success {
         padding-top: 75px;
     }
 
-    #iframe7 {
+    .iframe7 {
     height: 400px;
     }
 
 }
 
 @media(max-width: 400px){
-    #iframe7 {
+    .iframe7 {
     height: 300px;
     }    
 }
@@ -295,7 +295,7 @@ section.success {
         margin: 0 0 30px;
     }
 
-    #iframe7 {
+    .iframe7 {
     height: 400px;
     }
 }
@@ -321,7 +321,7 @@ section.success {
       max-width: 32%;
     }
 
-    #iframe7 {
+    .iframe7 {
     height: 600px;
     }
 
@@ -588,7 +588,7 @@ footer .footer-below {
     font-size: 3em;
 }
 
-#iframe7 {
+.iframe7 {
     margin-top: 50px;
 }
 
