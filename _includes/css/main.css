@@ -226,16 +226,16 @@ section.success {
         padding-top: 75px;
     }
 
-    .iframe7 {
-    height: 400px;
-    }
+/*    .iframe7 {
+    height: 388px;
+    }*/
 
 }
 
 @media(max-width: 400px){
-    .iframe7 {
-    height: 300px;
-    }    
+/*    .iframe7 {
+    height: 230px;
+    } */   
 }
 
 #portfolio .portfolio-item {
@@ -296,7 +296,7 @@ section.success {
     }
 
     .iframe7 {
-    height: 400px;
+    height: 388px;
     }
 }
 
@@ -592,3 +592,9 @@ footer .footer-below {
     margin-top: 50px;
 }
 
+
+@media(max-width: 320px){
+    .iframe7{
+        height: 183px;
+    }
+}
