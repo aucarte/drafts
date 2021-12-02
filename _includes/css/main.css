@@ -603,3 +603,9 @@ footer .footer-below {
         height: 128px;
     }
 }
+
+@media (min-width: 320px){
+    .iframe7{
+        height: 228px;
+    }
+}
