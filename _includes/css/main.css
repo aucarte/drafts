@@ -606,6 +606,12 @@ footer .footer-below {
 
 @media (min-width: 320px){
     .iframe7{
-        height: 228px;
+        height: 184px;
+    }
+}
+
+@media (min-width: 400px){
+    .iframe7{
+        height: 284px;
     }
 }
