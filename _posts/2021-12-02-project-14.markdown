@@ -1,5 +1,5 @@
 ---
-title: gorillaz-mask
+title: Gorillaz-Mask
 layout: default
 modal-id: 14
 date: 2021-12-02
