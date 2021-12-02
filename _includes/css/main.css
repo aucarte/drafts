@@ -606,12 +606,18 @@ footer .footer-below {
 
 @media (min-width: 320px){
     .iframe7{
-        height: 184px;
+        height: 168px;
     }
 }
 
 @media (min-width: 400px){
     .iframe7{
-        height: 284px;
+        height: 186px;
+    }
+}
+
+@media (min-width: 420px){
+    .iframe7{
+        height: 283px;
     }
 }
