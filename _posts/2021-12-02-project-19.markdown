@@ -1,0 +1,8 @@
+---
+title: Greymon
+layout: default
+modal-id: 19
+date: 2021-12-02
+img: greymon.jpg
+alt: image-alt
+---

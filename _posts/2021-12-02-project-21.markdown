@@ -1,0 +1,8 @@
+---
+title: kisame
+layout: default
+modal-id: 21
+date: 2021-12-02
+img: kisame.jpg
+alt: image-alt
+---

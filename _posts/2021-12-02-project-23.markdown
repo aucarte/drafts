@@ -1,0 +1,8 @@
+---
+title: might-guy
+layout: default
+modal-id: 23
+date: 2021-12-02
+img: might-guy.jpg
+alt: image-alt
+---
