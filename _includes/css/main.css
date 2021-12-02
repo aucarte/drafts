@@ -295,9 +295,9 @@ section.success {
         margin: 0 0 30px;
     }
 
-    .iframe7 {
+/*    .iframe7 {
     height: 388px;
-    }
+    }*/
 }
 
 /* Flexbox Portfolio Grid */
@@ -599,7 +599,7 @@ footer .footer-below {
 
 
 /*  iframe7 responsive */
-@media (max-width: 320px){
+/*@media (max-width: 320px){
     .iframe7{
         height: 128px;
     }
@@ -633,4 +633,4 @@ footer .footer-below {
     .iframe7{
         height: 330px;
     }
-}
+}*/
