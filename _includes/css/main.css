@@ -598,6 +598,7 @@ footer .footer-below {
 }
 
 
+/*  iframe7 responsive */
 @media (max-width: 320px){
     .iframe7{
         height: 128px;
@@ -619,5 +620,17 @@ footer .footer-below {
 @media (min-width: 420px){
     .iframe7{
         height: 283px;
+    }
+}
+
+@media (min-width: 580px){
+    .iframe7{
+        height: 320px;
+    }
+}
+
+@media (min-width: 660px){
+    .iframe7{
+        height: 330px;
     }
 }
