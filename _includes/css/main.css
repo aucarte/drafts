@@ -604,34 +604,45 @@ footer .footer-below {
         height: 182px;
     }
 }
-/*
-@media (min-width: 320px){
-    .iframe7{
-        height: 168px;
-    }
-}
 
-@media (min-width: 400px){
+@media (min-width: 360px){
     .iframe7{
-        height: 186px;
+        height: 195px;
     }
 }
 
 @media (min-width: 420px){
     .iframe7{
-        height: 265px;
+        height: 230px;
+    }
+}
+
+@media (min-width: 500px){
+    .iframe7{
+        height: 275px;
     }
 }
 
 @media (min-width: 580px){
     .iframe7{
-        height: 320px;
+        height: 330px;
     }
 }
 
-@media (min-width: 660px){
+@media (min-width: 680px){
     .iframe7{
-        height: 330px;
+        height: 385px;
     }
-}*/
+}
 
+@media (min-width: 991px){
+    .iframe7{
+        height: 512px;
+    }
+}
+
+@media (min-width: 1200px){
+    .iframe7{
+        height: 624px;
+    }
+}
