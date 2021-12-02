@@ -314,16 +314,21 @@ section.success {
       max-width: 49%;
     }
 
+
+    .iframe7 {
+    height: 328px;
+    }
+
   }
   @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 32%;
       max-width: 32%;
     }
-
+/*
     .iframe7 {
     height: 600px;
-    }
+    }*/
 
   }
   /* A large grid might need four columns on widescreen layouts */
