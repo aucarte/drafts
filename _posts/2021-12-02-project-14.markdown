@@ -5,5 +5,4 @@ modal-id: 14
 date: 2021-12-02
 img: gorillaz-mask.jpg
 alt: image-alt
-description: gorillaz band mask
 ---

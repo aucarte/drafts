@@ -1,8 +1,8 @@
 ---
-title: Face-Skull
+title: Cubone
 layout: default
-modal-id: 13
+modal-id: 15
 date: 2021-12-02
-img: face-s.jpg
+img: cubone.jpg
 alt: image-alt
 ---
