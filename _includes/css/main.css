@@ -658,6 +658,10 @@ footer .footer-below {
     pointer-events: none;
 }
 
+.img-responsive {
+    pointer-events: none;
+}
+
 .banner-square-animals{
     display: block;
     margin: 0 auto;
