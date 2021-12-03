@@ -659,10 +659,11 @@ footer .footer-below {
 }
 
 .img-responsive {
-    pointer-events: none;
+    pointer-events: none !important;
 }
 
 .banner-square-animals{
     display: block;
     margin: 0 auto;
 }
+
