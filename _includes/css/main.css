@@ -648,7 +648,7 @@ footer .footer-below {
 }
 
 
-#metabee{
+.metabee{
     /*transform: rotate(90deg);*/
     position: relative;
     margin:5% auto;
