@@ -654,6 +654,9 @@ footer .footer-below {
     margin:5% auto;
 }
 
+.metabee > img{
+    pointer-events: none;
+}
 
 .banner-square-animals{
     display: block;
