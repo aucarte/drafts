@@ -651,5 +651,11 @@ footer .footer-below {
 #metabee{
     transform: rotate(90deg);
     position: relative;
-    margin:10%;
+    margin:5% auto;
+}
+
+
+.banner-square-animals{
+    display: block;
+    margin: 0 auto;
 }
