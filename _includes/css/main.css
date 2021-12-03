@@ -305,7 +305,7 @@ section.success {
 
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
-      flex-flow: row wrap;
+      flex-flow: nowrap; row wrap;
       align-items: center;
       justify-content: space-between;
     }
