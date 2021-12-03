@@ -306,7 +306,7 @@ section.success {
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
       flex-flow: row wrap;
-      align-items: stretch;
+      align-items: center;
       justify-content: space-between;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
@@ -648,8 +648,8 @@ footer .footer-below {
 }
 
 
-.metabee{
-    /*transform: rotate(90deg);*/
+/*.metabee{
+    transform: rotate(90deg);
     position: relative;
     margin:5% auto;
 }
@@ -657,6 +657,7 @@ footer .footer-below {
 .metabee > img{
     pointer-events: none !important;
 }
+*/
 
 .img-responsive {
     pointer-events: none !important;
