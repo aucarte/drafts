@@ -655,7 +655,7 @@ footer .footer-below {
 }
 
 .metabee > img{
-    pointer-events: none;
+    pointer-events: none !important;
 }
 
 .img-responsive {
