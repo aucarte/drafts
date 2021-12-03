@@ -648,12 +648,12 @@ footer .footer-below {
 }
 
 
-/*.metabee{
-    transform: rotate(90deg);
+.metabee{
     position: relative;
     margin:5% auto;
 }
 
+/*
 .metabee > img{
     pointer-events: none !important;
 }
