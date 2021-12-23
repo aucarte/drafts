@@ -671,6 +671,7 @@ footer .footer-below {
 .gallery-h1{
     color: #ffb307;
     text-align: center;
+    padding: 10%;
 }
 
 /*.qLinha {
@@ -682,5 +683,5 @@ footer .footer-below {
     border: solid;
     padding: 5%;
     position: relative;
-    margin:3% auto;
+    margin:5% auto;
 }
