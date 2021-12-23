@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
 body {
     overflow-x: hidden;
     background-color: #181919;
@@ -672,6 +674,7 @@ footer .footer-below {
     color: #ffb307 !important;
     text-align: center;
     padding: 10%;
+    font-family: 'Oooh Baby', cursive;
 }
 
 /*.qLinha {
