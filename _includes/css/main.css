@@ -678,7 +678,9 @@ footer .footer-below {
   position: absolute;
 }*/
 
-div#metabee .tesao {
+.bordada {
     border: solid;
     padding: 5%;
+    position: relative;
+    margin:3% auto;
 }
