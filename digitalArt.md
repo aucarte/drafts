@@ -1,0 +1,4 @@
+---
+layout: digitalArt
+permalink: /digitalArt/
+---
