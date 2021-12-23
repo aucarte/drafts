@@ -667,3 +667,12 @@ footer .footer-below {
     display: block;
     margin: 0 auto;
 }
+
+.gallery-h1{
+    color: red;
+}
+
+/* Dashed red border */
+.qLinha {
+  border-top: 5px dashed #d9d9d9;
+}
