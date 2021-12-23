@@ -686,10 +686,10 @@ footer .footer-below {
     border: solid;
     padding: 5%;
     position: relative;
-    margin:5% auto;
+    margin: 5% auto;
 }
 
-.icon-retornar{
+img.icon-retornar{
     position: relative;
     margin: 1px auto;
 }
