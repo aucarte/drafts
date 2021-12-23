@@ -205,7 +205,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 90px 0;
+    padding: 5px 0;
 }
 
 section h2 {
@@ -221,7 +221,7 @@ section.success {
 /** ATÉ 767PX SERÁ APLICADA ESSA FORMATAÇÃO? **/
 @media(max-width:767px) {
     section {
-        padding: 90px 0;
+        padding: 5px 0;
     }
 
     section.first {
