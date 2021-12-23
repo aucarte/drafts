@@ -693,3 +693,8 @@ img.icon-retornar{
     position: relative;
     margin: 1px auto;
 }
+
+div.div-retornar{
+    position: relative;
+    margin: 0px auto;   
+}
