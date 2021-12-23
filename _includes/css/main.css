@@ -669,7 +669,7 @@ footer .footer-below {
 }
 
 .gallery-h1{
-    color: #ffb307;
+    color: #ffb307 !important;
     text-align: center;
     padding: 10%;
 }
