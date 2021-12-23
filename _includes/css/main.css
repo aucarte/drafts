@@ -686,7 +686,12 @@ footer .footer-below {
     margin:5% auto;
 }
 
-.icon-retornar{
+#div-retornar{
     position: relative;
-    margin:3% auto;
+    margin: 3% auto;
+}
+
+#icon-retornar{
+    position: relative;
+    margin: 5% auto;
 }
