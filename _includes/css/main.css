@@ -669,11 +669,16 @@ footer .footer-below {
 }
 
 .gallery-h1{
-    color: red;
+    color: #ffb307;
     text-align: center;
 }
 
-/* Dashed red border */
-.qLinha {
-  border-top: 5px dashed #d9d9d9;
+/*.qLinha {
+  border: 5px solid #d9d9d9;
+  position: absolute;
+}*/
+
+div#metabee .tesao {
+    border: solid;
+    padding: 5%;
 }
