@@ -1,0 +1,4 @@
+---
+layout: drawings
+permalink: /drawings/
+---
