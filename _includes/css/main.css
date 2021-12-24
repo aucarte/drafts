@@ -673,7 +673,7 @@ footer .footer-below {
 .gallery-h1{
     color: #ffb307 !important;
     text-align: center;
-    padding: 10%;
+    padding: 5%;
     font-family: 'Oooh Baby', cursive;
 }
 
@@ -691,7 +691,7 @@ footer .footer-below {
 
 img.icon-retornar{
     position: relative;
-    margin: 1px auto;
+    margin: 1px; /*auto*/
 }
 
 /*
