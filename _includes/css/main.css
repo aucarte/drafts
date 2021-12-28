@@ -647,10 +647,6 @@ footer .footer-below {
     .iframe7{
         height: 624px;
     }
-
-    img.icon-retornar{
-        max-width: 20%;
-    }
 }
 
 
@@ -705,6 +701,15 @@ div.div-retornar{
 }
 
 */
+
+@media screen and (max-width: 1024px) {
+
+    img.icon-retornar{
+        max-width: 20%;
+    }
+
+}
+
 
 
 
