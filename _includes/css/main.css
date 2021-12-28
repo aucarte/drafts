@@ -647,6 +647,10 @@ footer .footer-below {
     .iframe7{
         height: 624px;
     }
+
+    img.icon-retornar{
+        max-width: 20%;
+    }
 }
 
 
